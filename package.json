@@ -1,10 +1,10 @@
 {
   "name": "some-images-to-pdf",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "",
   "main": "src/index.js",
   "type": "module",
-  "bin": "./index.js",
+  "bin": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +13,7 @@
     "url": "https://github.com/mikezyeman/imagestopdf.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mike Zyeman",
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.0.0",
