@@ -47,15 +47,11 @@ async function convertImagesToPDF(name = 'generated') {
 
             const ext = path.extname(image).substring(1);
             const base64 = await imageToBase64(image);
-
             const dimensions = await sizeOf(image);
-            console.log(dimensions);
 
             const ratio = dimensions.height / dimensions.width;
             let width = A4Properties.width,
                 height = ratio * A4Properties.width;
-
-            console.log(width, height);
 
             pdf.addImage(base64, ext, 0, 0, width, height);
 
