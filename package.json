@@ -1,6 +1,6 @@
 {
   "name": "some-images-to-pdf",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "A npm cli tool for convertion multiple pictures into one pdf.",
   "main": "src/index.js",
   "type": "module",
